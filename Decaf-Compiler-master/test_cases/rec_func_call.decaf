@@ -1,0 +1,23 @@
+class Program
+{
+	int test(int x)
+	{
+		int y;
+		if(x == 0){
+			y = 0;
+		}
+		else{
+			y =  test(x - 1) + 2;
+		}
+		return y;
+	}
+	int main()
+	{
+		int x;
+		int y;
+		x = 1;
+		y = test(x);
+		callout("printf","%d\n", y);
+		return 0;
+	}
+}

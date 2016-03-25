@@ -1,0 +1,24 @@
+// Question numbers have been chosen considering 
+// rollnumber A: 201301058
+// rollnumber B: 201301104
+// and assuming that question number start from base 0 on the courses wiki site.
+
+class power
+{
+	int main()
+	{
+		int x,y,pro,i;
+		pro = 1;
+		x =3;
+		y = 4;
+//		callout("scanf","%d",x);
+//		callout("scanf","%d",y);
+		for i=1 , i<=y
+		{
+			pro=pro*x;
+			i=i+1;
+		}			
+		callout("printf","power: %d\n",pro);			
+	        return 0;
+	}
+}

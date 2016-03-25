@@ -1,0 +1,24 @@
+class Test{
+	int oldy[9];
+	int old;
+	int main()
+	{
+		int a,b,c,d;
+		a = 5;//comment
+		b=0;
+		c=2;
+		d=6;
+		old = a+b*c-d;
+		if(b)
+		{
+			b=b+2;
+		}
+		else{
+			b = b+1;
+		}
+		callout("printf", "old: %d\n", b);
+
+		return 0;
+	}
+
+}

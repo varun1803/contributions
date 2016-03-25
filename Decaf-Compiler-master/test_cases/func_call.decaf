@@ -1,0 +1,16 @@
+class Program
+{
+	int test(int x)
+	{
+		return x + 1;
+	}
+	int main()
+	{
+		int x;
+		int y;
+		x = 12345;
+		y = test(x);
+		callout("printf","%d\n", y);
+		return 0;
+	}
+}

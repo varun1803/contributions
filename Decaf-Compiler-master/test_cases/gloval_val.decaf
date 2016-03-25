@@ -1,0 +1,15 @@
+class Test{
+	int oldy[9];
+	int old;
+	int main()
+	{
+		int a,b;
+		old = 3;
+		oldy[2] = 4;
+		a = old;//comment
+		b = oldy[2];//comment
+		callout("printf", "a: %d b: %d oldy:%d\n", a ,b,oldy[2]);
+		return 0;
+	}
+
+}
